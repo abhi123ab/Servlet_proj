@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+<meta charset="ISO-8859-1">
+<head>
+<style>
+body
+{
+background-image: url("image/pexels-jess-bailey-designs-1172849.jpg");
+background-size: cover;
+margin-top: 250px;
+}
+td{
+margin: 10px;
+padding:10px;
+
+}
+table 
+{
+	border: 2px solid black;
+	border-radius:10px;
+	padding: 20px;
+	box-shadow: 12px 12px 3px gray;
+	
+}
+table:hover{
+background-color: silver;
+}
+#post{
+margin-left: 21px;
+background-color: cyan;
+padding: 10px;
+border-radius: 8px;
+}
+#post:hover {
+	background-color: gray;
+	color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<center>
+<h1>Enter the details to save Record in the DataBase </h1>
+<form action="fs" method="post">
+
+<table>
+
+<tr>
+<td><b>Id:-</b></td>
+<td><input type="text" name="i"> </td>
+</tr>
+<tr>
+<td><b>Name:-</b></td>
+<td><input type="text" name="nm"> </td>
+</tr>
+<tr>
+<td><b>Dept:-</b></td>
+<td><input type="text" name="dp"> </td>
+</tr>
+<tr>
+<td><b>Perc:-</b></td>
+<td><input type="text" name="pr"> </td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="Post" id="post"> </td>
+</tr>
+
+</table>
+</form>
+</center>
+</body>
+</html>
